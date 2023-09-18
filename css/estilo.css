@@ -1,0 +1,170 @@
+html, body {
+    overflow-x: hidden;
+}
+.logo_img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu_fun{
+    padding: 2%;
+    text-align: center;
+    width: 1200px;
+    background-image: linear-gradient(to right, #5900ff,#004AAD);
+    border-radius: 0% 0% 20px 20px;
+}
+nav{
+    position: relative;
+    left: 30px;
+    top: -3px;
+}
+.produto, .conosco, .fundadores, .sobre{
+    border-radius: 20px;
+    height: 40px;
+    font-family: cursive;
+    background-color: #4093ff;
+    padding: 0px 3% 0px 3%;
+    border: none; 
+    cursor: pointer;
+}
+.hyplink{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.header_img{
+    width: 80px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.saiba-mais{
+    width: 180px;
+    border-radius: 50px;
+    height: 60px;
+    font-family: cursive;
+    background-color:#0068f0;
+    padding: 0px 3% 0px 3%;
+    border: none; 
+}
+.primeiro_bloco{
+    text-align: center;
+}
+.primeiro-s{
+    display: grid;
+    grid-template-columns:auto auto;
+    height: 600px;
+}
+.titulo1{
+    font-family: Georgia;
+    font-size: 70px;
+    position: relative;
+    top: 70px;
+}
+.text01{
+    font-family: cursive;
+    position: relative;
+    top: 90px;
+    font-size: 40px;
+    width: 700px;
+    left: 30px;
+}
+.back_col{
+    width: 490px;
+    height: 490px;
+    background-color: #004AAD;
+    border-radius: 0px 50px 0px 0px;
+    position: relative;
+    top: 30px;
+}
+.img01{
+    width: 490px;
+    border-radius: 0px 50px 0px 0px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.saiba-mais{
+    position: relative;
+    top: 100px;
+}
+.slide2{
+    background-color: #004AAD;
+    color: white;
+    text-align: center;
+}
+.s1{
+    width: 1000px;
+}
+.algodão{
+    font-family: cursive;
+    font-size: 40px;
+    position: relative;
+    bottom: 50px;
+    background-color: #4093ff;
+    width: 400px;
+    left: 450px;
+    border-radius: 50px;
+}
+.slide3{
+    background-color: #F1EDE8;
+    color: black;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 600px;
+    font-family: sans-serif;
+}
+.slide4{
+    background-color: #004AAD;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.imgc{
+    height: 600px;
+    width: 600px;
+}
+.divs{
+    padding-top: 30%;
+    text-align: center;
+    padding-right: 110px;
+}
+.btas{
+    background-color: transparent;
+    border-color: white;
+    width: 250px;
+    height: 30px;
+}
+.textas{
+    font-family: cursive;
+    font-size: 80px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+
+
+
+.carrossel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+.bloco{
+    font-family: cursive;
+    padding: 30px;
+    text-align: center;
+}
+.t{
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+
+.img2{
+    width: 100px;
+    border-radius: 50px;
+}
