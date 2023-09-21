@@ -1,6 +1,13 @@
 html, body {
     overflow-x: hidden;
 }
+header{
+    width: 100%;
+    text-align: center;
+}
+.menu{
+    width: 100%;
+}
 .logo_img{
     position: relative;
     width: 100%;
@@ -9,14 +16,14 @@ html, body {
 .menu_fun{
     padding: 2%;
     text-align: center;
-    width: 1200px;
+    width: 100%;
     background-image: linear-gradient(to right, #5900ff,#004AAD);
     border-radius: 0% 0% 20px 20px;
+    height: 100px;
 }
 nav{
-    position: relative;
-    left: 30px;
-    top: -3px;
+    text-align: center;
+    display:inline-block ;
 }
 .produto, .conosco, .fundadores, .sobre{
     border-radius: 20px;
@@ -34,9 +41,6 @@ nav{
 }
 .header_img{
     width: 80px;
-    position: absolute;
-    top: 5px;
-    left: 10px;
 }
 .saiba-mais{
     width: 180px;
